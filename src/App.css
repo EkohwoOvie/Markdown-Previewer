@@ -1,0 +1,84 @@
+body{
+  background:
+    url(https://img.fortawesome.com/1ce05b4b/hero-icon-bg.svg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+
+.App{
+  justify-content: center;
+align-items: center;
+width: 600px;
+margin: auto;
+margin-top: 50px;
+
+
+}
+#second{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+span img{
+  width: 08px;
+  margin: 10px 10px;
+}
+#headerPreview{
+  margin: 10px 10px;
+}
+
+.TextAreaTitle{
+display: flex;
+width: 606px;
+background: rgb(151, 146, 191);
+font-weight: 600;
+gap: 502px;
+align-items: center;
+justify-content: center;
+} 
+
+#editor {
+  margin-bottom: 30px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border-inline-end-color: blue;
+  background: rgb(236, 206, 167);
+}
+
+#preview{
+background:rgb(193, 208, 222);
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-top:-20px;
+padding-top: 0px;
+padding-left: 10px;
+padding-right: 1px;
+padding-bottom: 10px;
+}
+
+#headerPreviewDown{
+  margin-bottom: 8px;
+  width: 100%;
+  display: flex;
+  width: 570px;
+  background: rgb(151, 146, 191);
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  border: 30px;
+  border-color: rgb(58, 83, 227);
+  padding: 20px;
+  margin-top: 10px;
+}
+.mainHeader{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
